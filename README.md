@@ -19,6 +19,7 @@ Fernando Jacobo Paredes
 ## Instrucciones para desplegar el sistema
 
 	-Crear una base de datos llamada laravel, o si se quiere pueden cambiar el nombre en el archivo .env
+    -El usuario de db por defecto es root y no tiene contraseña, cambiar por su respectivo usuario y contraseña
 	-Ejecutar #php artisan migrate
 	-Ejecutar #php artisan db:seed
 	-En caso de recibir algun error revisar que la version de laravel sea 8
